@@ -10,5 +10,7 @@ DockerEngine 1.11
 <code>docker build -t="thuannvn/my-jenkins" .</code>
 
 # Start your jenkins
+<code>docker run -p 8080:8080 -p 50000:50000 -v /opt/jenkins:/var/jenkins_home thuanvn/my-jenkins</code>
 
+Then access jenkins http://ip-host:8088
 #FAQ

@@ -1,4 +1,6 @@
 # Docker Jenkins Extended
+This Dockerfile is based on officed jenkins docker image on dockerhub. I've extend to support ansible....
+
 #Requirements
 DockerEngine 1.11
 #How to build image from Dockerfile

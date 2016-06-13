@@ -16,3 +16,8 @@ DockerEngine 1.11
 
 Then access jenkins http://ip-host:8088
 #FAQ
+Error when su root: 'su : must be run from a terminal'
+Solved:
+
+<code>echo "import pty; pty.spawn('/bin/bash')" > /tmp/asdf.py</code>
+<code>python /tmp/asdf.py</code>

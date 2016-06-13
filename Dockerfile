@@ -2,6 +2,8 @@ FROM jenkins
 # Install ansible
 USER root
 RUN apt-get update -y
+RUN apt-get install -y sudo
+RUN apt-get install -y vim
 RUN echo "jenkins ALL=NOPASSWD: ALL" >> /etc/sudoers
 
 RUN apt-get update -y

@@ -1,5 +1,7 @@
 # Docker Jenkins Extended
 This Dockerfile is based on officed jenkins docker image on dockerhub. I've extend to support ansible....
+Software installed:
+OpenVPN, Tmux, Ansible....
 
 #Requirements
 DockerEngine 1.11

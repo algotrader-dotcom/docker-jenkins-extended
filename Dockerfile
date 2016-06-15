@@ -18,5 +18,7 @@ ENV PATH /opt/ansible/ansible/bin:/bin:/usr/bin:/sbin:/usr/sbin
 ENV PYTHONPATH /opt/ansible/ansible/lib
 ENV ANSIBLE_LIBRARY /opt/ansible/ansible/library
 
+RUN apt-get install openvpn -y
+RUN apt-get install tmux -y
 # Switch back
 USER jenkins
